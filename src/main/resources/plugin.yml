@@ -1,0 +1,14 @@
+name: CellularAutomaton
+description: play with cells
+author: RypoFalem
+version: 0.1
+main: io.github.rypofalem.cellular_automata.Plugin
+commands:
+  cell:
+    description: do the thing
+    usage: /<command> <rule>
+    permission: cell.admin
+permissions:
+  cell.admin:
+    description: use /pinnacle command
+    default: OP
